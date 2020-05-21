@@ -1,6 +1,7 @@
 FROM python:stretch
 
 COPY main.py /app/main.py
+COPY test_main.py /app/test_main.py
 COPY requirements.txt /app/requirements.txt
 
 WORKDIR /app
